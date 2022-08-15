@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .hide{
-  display: none;
+  display : none;
+ 
 }
 input::placeholder{
   color: gray;
@@ -30,8 +31,8 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   color:transparent;
 }
 .inner{
-  width: 95%;
   margin: 0 auto;
+  width: 95%;
 }
 .innerPadding{
 /*  카멜케이스방식 : 첫자는 소문자로 시작. 다른 단어 첫자는 대문자 */
@@ -100,17 +101,7 @@ padding-top:20px;
   padding-bottom: 100px;
 }
 /* 버튼 */
-.submit{
-  font-weight: bold;
-  background-color: #e82b27;
-  width: 130px;
-  height: 40px;
-  color: white;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 20px;
-  font-size: 14px;
-}
+
 /* 글자정렬 */
 .text-center{
   text-align: center;

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 반응형 시 헤더에 써 줄 부분. 없으면 화면이 축소되어 보임. 1:1 비율로 보이게 해 줌.  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>한국타이어 - 김수헌</title>
+
+</head>
+
+<body>
+    <!-- 상단영역 -->
+    <header id="top">
+        <div class="top flex flexBetween flexAlignCenter">
+            <nav class="cartype">
+                <ul class="flex flexAlignCenter">
+                    <li><a href="">전기차 타이어</a></li>
+                    <li><a href="">승용차 타이어</a></li>
+                    <li><a href="">SUV 타이어</a></li>
+                    <li><a href="">소형트럭 타이어</a></li>
+                    <li><a href="">트럭/버스 타이어</a></li>
+                    <li><a href="">레이싱 타이어</a></li>
+                </ul>
+            </nav>
+            <nav class="globaltype">
+                <ul class="flex flexAlignCenter">
+                    <li><a href="">대한민국</a></li>
+                    <li><a href="">글로벌 사이트</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header flex flexBetween">
+            <a href="" class="logo">한국타이어로고</a>
+            <ul class="menu flex flexBetween">
+                <li class="menuli">
+                    <h2 class="menuh2">타이어</h2>
+
+                    <ul class="menuh2ul flex">
+                        <li class="flex flexColumn">
+                            <h3 class="menuh3">차종별 찾기</h3>
+                            <ul class="menu3ul flex flexColumn">
+                                <li><a href="">전기차 타이어</a></li>
+                                <li><a href="">승용차 타이어</a></li>
+                                <li><a href="">SUV 타이어</a></li>
+                                <li><a href="">소형트럭 타이어</a></li>
+                                <li><a href="">트럭/버스 타이어</a></li>
+                                <li><a href="">레이싱 타이어</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="flex flexColumn">
+                            <h3 class="menuh3">계절별 찾기</h3>
+                            <ul class="menu3ul flex flexColumn">
+                                <li><a href="">올시즌 타이어</a></li>
+                                <li><a href="">퍼포먼스 타이어</a></li>
+                                <li><a href="">올웨더 타이어</a></li>
+                                <li><a href="">겨울용 타이어</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="flex flexColumn">
+                            <h3 class="menuh3">브랜드별 찾기</h3>
+                            <ul class="menu3ul flex flexColumn">
+                                <li><a href="">브랜드 소개</a></li>
+                                <li><a href="">벤투스</a></li>
+                                <li><a href="">다이나프로</a></li>
+                                <li><a href="">키너지</a></li>
+                                <li><a href="">윈터 아이셉트</a></li>
+                                <li><a href="">밴트라</a></li>
+                                <li><a href="">스마트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menuli">
+                    <h2 class="menuh2">매장정보</h2>
+                </li>
+                <li class="menuli">
+                    <h2 class="menuh2">프로모션</h2>
+                </li>
+                <li class="menuli">
+                    <h2 class="menuh2">고객지원</h2>
+
+                    <ul class="menuh2ul flex">
+                        <li class="flex flexColumn">
+                            <h3 class="menuh3">서비스 & 보증</h3>
+                            <ul class="menu3ul flex flexColumn">
+                                <li><a href="">무상보증 서비스</a></li>
+                                <li><a href="">품질보증 서비스</a></li>
+                                <li><a href="">무상점검 서비스</a></li>
+                                <li><a href="">품질보증 정책</a></li>
+                                <li><a href="">타이어 효율 등급제</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex flexColumn">
+                            <h3 class="menuh3">드라이빙 팁</h3>
+                            <ul class="menu3ul flex flexColumn">
+                                <li><a href="">에코 드라이빙</a></li>
+                                <li><a href="">빗길 드라이빙</a></li>
+                                <li><a href="">눈길 드라이빙</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex flexColumn">
+                            <h3 class="menuh3">케어 가이드</h3>
+                            <ul class="menu3ul flex flexColumn">
+                                <li><a href="">적정 공기압 점검</a></li>
+                                <li><a href="">마모상태 점검</a></li>
+                                <li><a href="">위치 교환</a></li>
+                                <li><a href="">밸런스 점검</a></li>
+                                <li><a href="">휠 얼라인먼트</a></li>
+                                <li><a href="">교체 시기 확인</a></li>
+                                <li><a href="">보관 방법</a></li>
+                                <li><a href="">트럭 & 버스 타이어 사용 가이드</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex flexColumn">
+                            <h3 class="menuh3">타이어 가이드</h3>
+                            <ul class="menu3ul flex flexColumn">
+                                <li><a href="">구조</a></li>
+                                <li><a href="">외관 표시 방법</a></li>
+                                <li><a href="">사이즈 & 스펙</a></li>
+                                <li><a href="">하중 & 속도 표시</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menuli">
+                    <h2 class="menuh2">회사소개</h2>
+                </li>
+            </ul>
+            <div class="search">
+                <ul class="flex flexBetween">
+                    <li><a href="">타이어 찾기</a></li>
+                    <li><a href="">매장 찾기</a></li>
+                    <li><a href="">keywordsearch</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+
+    <!-- 내용영역 -->
+    <main>
+        <section id="main">
+            <div class="inner flex flexColumn">
+                <div class="video">
+                    <video autoplay loop>
+                        <source src="./video/mainvideo.webm" type="video/webm">
+                    </video>
+                    <div class="videobottom flex flexBetween flexAlignCenter">
+                        <ul class="type flex flexBetween flexAlignCenter">
+                            <li><a href="">승용차</a></li>
+                            <span>|</span>
+                            <li><a href="">트럭버스</a></li>
+                        </ul>
+                        <ul class="searchtire flex flexBetween flexAlignCenter">
+                            <li>
+                                <h4>타이어 검색</h4>
+                                <p>
+                                    <a class="more" href="">차종으로 찾기
+                                        <span class="arrow">
+                                            <img src="./img/arrow.svg" alt="">
+                                        </span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li>
+                                <h4>타이어 검색</h4>
+                                <p>
+                                    <a class="more" href="">사이즈로 찾기
+                                        <span class="arrow">
+                                            <img src="./img/arrow.svg" alt="">
+                                        </span>
+                                    </a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="technictype">
+                    <ul class="techtype flex">
+                        <li>
+                            <p class="techniccard">
+                                The perfect<br />
+                                driving experience<br />
+                                envisioned by<br />
+                                innovative<br />
+                                technology
+                            </p>
+                        </li>
+                        <li class="flex flexColumn">
+                            <h4 class="typename">ventus s1 evo z</h4>
+                            <p>모터스포츠의 기술을 담은 초고성능 슈퍼 스포츠 타이어</p>
+                            <a class="more" href="">자세히 보기<span class="arrow">
+                                    <img src="./img/arrow.svg" alt="">
+                                </span></a>
+
+                        </li>
+                        <li class="flex flexColumn">
+                            <h4 class="typename">ventus s1 evo z as</h4>
+                            <p>모터스포츠의 기술을 담은 초고성능 슈퍼 스포츠 올시즌 타이어</p>
+                            <a class="more" href="">자세히 보기<span class="arrow">
+                                    <img src="./img/arrow.svg" alt="">
+                                </span></a>
+                        </li>
+                        <li class="flex flexColumn">
+                            <h4 class="typename">ventus s1 evo3</h4>
+                            <p>유럽 명차가 선택한 고성능 스포츠 타이어</p>
+                            <a class="more" href="">자세히 보기<span class="arrow">
+                                    <img src="./img/arrow.svg" alt="">
+                                </span></a>
+                        </li>
+                        <li class="flex flexColumn">
+                            <h4 class="typename">kinergy 4s2</h4>
+                            <p>빗길, 눈길에 안전성을 강화한 All weather 타이어</p>
+                            <a class="more" href="">자세히 보기<span class="arrow">
+                                    <img src="./img/arrow.svg" alt="">
+                                </span></a>
+                        </li>
+                        <li class="flex flexColumn">
+                            <h4 class="typename">ventus s2 as</h4>
+                            <p>모터스포츠의 기술을 담은 초고성능 슈퍼 스포츠 올시즌 타이어</p>
+                            <a class="more" href="">자세히 보기<span class="arrow">
+                                    <img src="./img/arrow.svg" alt="">
+                                </span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="ourbrands">
+            <div class="inner">
+                <div class="brandstitle">
+                    <h3 class="text-center">Our Brands</h3>
+                    <a class="more" href="">
+                        <img src="./img/brands.jpg" alt="">
+                        <div class="brandsinner flex flexColumn flexBetween flexAlignCenter">
+                            <h4>ventus</h4>
+                            상품 더보기
+                            <span class="arrow">
+                                <img src="./img/arrow.svg" alt="">
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="brandlist">
+                    <ul class="flex flexBetween">
+                        <li class="flex flexColumn">
+                            <img class="tire" src="./img/s1evoztire.png" alt=""></img>
+
+                            <a href="">
+                                <h3 class="brandname">ventus S1 evo Z</h3>
+                            </a>
+                            <p>모터스포츠의 기술을 담은 초고성능 슈퍼 스포츠 타이어</p>
+                            <div class="tag">
+                                <span class="text-center">승용차 타이어</span>
+                                <span class="text-center">퍼포먼스</span>
+                                <span class="text-center">젖은노면성능</span>
+                                <span class="text-center">정숙성</span>
+                                <span class="text-center">마른노면성능</span>
+                            </div>
+
+
+                        </li>
+                        <li class="flex flexColumn">
+                            <img class="tire" src="./img/s1evo3suvtire.png" alt=""></img>
+
+                            <a href="">
+                                <h3 class="brandname">ventus S1 evo3 SUV</h3>
+                            </a>
+                            <p>유럽 명차가 선택한 SUV 전용 고성능 스포츠 타이어</p>
+                            <div class="tag">
+                                <span class="text-center">SUV 타이어</span>
+                                <span class="text-center">퍼포먼스</span>
+                                <span class="text-center">젖은노면성능</span>
+                                <span class="text-center">핸들링</span>
+                                <span class="text-center">마른노면성능</span>
+                            </div>
+
+                        </li>
+                        <li class="flex flexColumn">
+                            <img class="tire" src="./img/s1evo3tire.png" alt=""></img>
+
+                            <a href="">
+                                <h3 class="brandname">ventus S1 evo3</h3>
+                            </a>
+                            <p>유럽 명차가 선택한 고성능 스포츠 타이어</p>
+                            <div class="tag">
+                                <span class="text-center">승용차 타이어</span>
+                                <span class="text-center">퍼포먼스</span>
+                                <span class="text-center">젖은노면성능</span>
+                                <span class="text-center">핸들링</span>
+                                <span class="text-center">마른노면성능</span>
+                            </div>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="motion">
+            <div class="inner">
+                <h2>Technology in Motion</h2>
+                <div class="adlist">
+                    <ul class="flex">
+                        <li>
+                            <video class="mainad" autoplay loop>
+                                <source src="./video/motion.mp4" type="video/mp4">
+                            </video>
+                            <hgroup class="adment flex flexColumn flexBetween">
+                                <h3>High-Tech I Mobility Culture</h3>
+                                <h4>EV타이어, 새로운 개척점에 서다</h4>
+                                <a href="" class="more">자세히 보기
+                                    <span class="arrow">
+                                        <img src="./img/arrow.svg" alt="">
+                                    </span>
+                                </a>
+                            </hgroup>
+                        </li>
+                        <li>
+                            <img src="./img/motionimg1.jpg" alt="">
+                        </li>
+                        <li>
+                            <video class="subad" preload="metadata">
+                                <source src="./video/motion2.mp4" type="video/mp4">
+                            </video>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="hankook">
+            <div class="inner">
+                <img src="./img/hankook.jpg" alt="technoplex건물" class="hankooktitle">
+                <hgroup class="flex flexAlignCenter flexColumn">
+                    <h3>Why Hankook</h3>
+                    <p>한국타이어는 끊임없는 혁신으로 미래 드라이빙을 선도하는 글로벌 Top Tier 기업으로 도약합니다. </p>
+                    <a href="" class="more">자세히 보기<span class="arrow"><img src="./img/arrow.svg" alt=""></span></a>
+                </hgroup>
+            </div>
+        </section>
+        <section id="media">
+            <div class="inner">
+                <h3>Media Center</h3>
+                <ul class="medialist flex flexBetween">
+                    <li class="flex flexColumn flexBetween">
+                        <div class="imgdiv"><img src="./img/media1.jpg" alt="">
+                        </div>
+                        <p class="type">기업</p>
+                        <h4>한국타이어, 지속가능경영 담은 ‘2021/22 ESG 보고서’ 발간</h4>
+                    </li>
+                    <li class="flex flexColumn flexBetween">
+                        <div class="imgdiv">
+                            <img src="./img/media2.jpg" alt="">
+                        </div>
+                        <p class="type">상품</p>
+                        <h4>한국타이어, 영국 전문지 SUV 타이어 젖은 노면 테스트에서 압도적 1위</h4>
+                    </li>
+                    <li class="flex flexColumn flexBetween">
+                        <div class="imgdiv">
+                            <img src="./img/media3.jpg" alt="">
+                        </div>
+                        <p class="type">기업</p>
+                        <h4>한국타이어, 2분기 매출액 2조 399억 원, 영업이익 1,752억 원 발표</h4>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="tips">
+            <div class="inner">
+                <h4 class="text-center">Tips & Support</h4>
+                <ul class="tiplist flex flexBetween">
+                    <li class="flex flexColumn flexBetween flexAlignCenter">
+                        <h5>보증</h5>
+                        <p>타이어 보증관리</p>
+                        <a href="" class="more">자세히 보기<span class="arrow"><img src="./img/arrow.svg" alt=""></span></a>
+                    </li>
+                    <li class="flex flexColumn flexBetween flexAlignCenter">
+                        <h5>드라이빙 팁</h5>
+                        <p>운전자를 위한 3가지 팁</p>
+                        <a href="" class="more">자세히 보기<span class="arrow"><img src="./img/arrow.svg" alt=""></span></a>
+                    </li>
+                    <li class="flex flexColumn flexBetween flexAlignCenter">
+                        <h5>케어 가이드</h5>
+                        <p>타이어 관리 팁</p>
+                        <a href="" class="more">자세히 보기<span class="arrow"><img src="./img/arrow.svg" alt=""></span></a>
+                    </li>
+                    <li class="flex flexColumn flexBetween flexAlignCenter">
+                        <h5>타이어 가이드</h5>
+                        <p>올바른 타이어를 고르기 위한 가이드</p>
+                        <a href="" class="more">자세히 보기<span class="arrow"><img src="./img/arrow.svg" alt=""></span></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- 하단영역 -->
+    <footer>
+        <section id="social">
+            <div class="inner">
+                <h4>#Hankooktire in Social Media</h4>
+                <ul class="sociallist flex">
+                    <li><img src="./img/social1.jpg" alt=""></li>
+                    
+                    <li><img src="./img/social2.jpg" alt=""></li>
+                    
+                    <li><img src="./img/social3.jpg" alt=""></li>
+                    
+                    <li><img src="./img/social4.jpg" alt=""></li>
+                    
+                    <li><img src="./img/social5.jpg" alt=""></li>
+                    
+                    <li><img src="./img/social6.jpg" alt=""></li>           
+                </ul>
+            </div>
+        </section>
+        <section id="summary">
+            <div class="inner">
+                <div class="footup flex">
+                    <ul class="footmenu flex flexBetween">
+                        <li class="flex flexColumn">   
+                            <h3 class="lih3">차종별 찾기</h3>
+                            <ul class="liul flex flexColumn">
+                                <li><a href="">전기차 타이어</a></li>
+                                <li><a href="">승용차 타이어</a></li>
+                                <li><a href="">SUV 타이어</a></li>
+                                <li><a href="">소형트럭 타이어</a></li>
+                                <li><a href="">트럭/버스 타이어</a></li>
+                                <li><a href="">레이싱 타이어</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="flex flexColumn">
+                            <h3 class="lih3">브랜드별 찾기</h3>
+                            <ul class="liul flex flexColumn">
+                                <li><a href="">브랜드 소개</a></li>
+                                <li><a href="">벤투스</a></li>
+                                <li><a href="">다이나프로</a></li>
+                                <li><a href="">키너지</a></li>
+                                <li><a href="">윈터 아이셉트</a></li>
+                                <li><a href="">벤트라</a></li>
+                                <li><a href="">스마트</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="flex flexColumn">
+                            <h3 class="lih3">고객지원</h3>
+                            <ul class="liul flex flexColumn">
+                                <li><a href="">서비스 & 보증</a></li>
+                                <li><a href="">드라이빙 팁</a></li>                            
+                                <li><a href="">케어 가이드</a></li>
+                                <li><a href="">타이어 가이드</a></li>
+                                <li><a href="">무상보증 서비스</a></li>
+                                <li><a href="">무상점검 서비스</a></li>
+                                <li><a href="">고객 문의</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="flex flexColumn">
+                            <h3 class="lih3">기업정보</h3>
+                            <ul class="liul flex flexColumn">
+                                <li><a href="">회사소개</a></li>
+                                <li><a href="">미디어센터</a></li>
+                                <li><a href="">어워드</a></li>
+                                <li><a href="">글로벌 네트워크</a></li>
+                                <li><a href="">모터스포츠</a></li>
+                                <li><a href="">Hankooktire ESG</a></li>
+                                <li><a href="">재무현황</a></li>
+                                <li><a href="">투자자 보고서</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="flex flexColumn">
+                            <h3 class="lih3">채용정보</h3>
+                            <ul class="liul flex flexColumn">
+                                <li><a href="">Proactive Leader</a></li>
+                                <li><a href="">Proactive Culture</a></li>
+                                <li><a href="">Proactive HR</a></li>
+                                <li><a href="">채용안내</a></li>
+                                <li><a href="">인사제도</a></li>
+                                <li><a href="">교육제도</a></li>
+                                <li><a href="">입사지원</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="" class="country more">
+                        <h4>국가변경</h4>
+                        <p>South Korea</p>
+                        <span class="arrow"><img src="./img/arrow.svg" alt=""></span>
+                    </a>
+                    <div class="footdownleft flex flexColumn flexBetween">
+                        <ul class="sitelist flex flexBetween">
+                            <span>Family Site :</span>
+                            <li><a href="">T'Station</a></li>
+                            <li><a href="">Laufenn</a></li>
+                            <li><a href="">Hankook & Company</a></li>
+                            <li><a href="">Hankook Networks</a></li>
+                            <li><a href="">Hankook Engineering Works</a></li>
+                            <li><a href="">Hankook Precision Works</a></li>
+                            <li><a href="">Model Solution</a></li>
+                        </ul>
+                                
+                        <ul class="detail flex">
+                            <li><a href="">이용약관</a></li>
+                            <li><a href="">개인정보처리방침</a></li>
+                            <li><a href="">사이버 감사실</a></li>
+                            <li><a href="">협력사 포털</a></li>
+                            <li><a href="">사이트맵</a></li>
+                            <li><a href="">비즈링 신청</a></li>
+                            <li><a href="">출입등록</a></li>
+                            <li><a href="tel:080-022-8272">고객센터 080-022-8272</a></li>
+                        </ul>
+                                 
+                        
+                    </div>
+                    <div class="footdownright flex flexColumn flexBetween">
+                        <ul class="sns flex">
+                            <li><a href="">facebook</a></li>
+                            <li><a href="">youtube</a></li>
+                            <li><a href="">instagram</a></li>
+                            <li><a href="">linkedin</a></li>
+                            <li><a href="">blog</a></li>
+                        </ul>
+                        <p class="copyright flex">Copyright © 2022 Hankook Tire & Technology. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
+<!-- 구조적인 의미로 맞게 작성해야 함. 
+스타일 제거했을때 의미있게 나열 되도록 -->
